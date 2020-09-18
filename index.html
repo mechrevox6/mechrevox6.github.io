@@ -1,0 +1,186 @@
+
+<html>
+  <head>
+    <meta charvctk_set="UTF-8">
+    <title>midi demos</title>
+  </head>
+  <body>
+    <div align="right">
+      <img src="samples/lablogo.png"style="width:240px;height=100px;max-width:60%;overflow:hidden;text-align: right">
+    </div>
+    <div>
+      <h1> Demos for Generative Adversarial Networks for drumbeat generation </h1>
+
+<h2>
+ <b> Task One </b>
+</h2>
+<p>
+  This task is generate midi music file according to specified music style, such as 
+  rock, latin and so on.
+</p>
+<h2>
+  Network Structure
+</h2>
+
+<img src="samples/groove_gan2.png"style="max-width:80%;overflow:hidden;">
+<h2>
+  Demos
+</h2>
+<h3> <b>Origin songs</b></h3>
+<table>
+
+  <tr>
+    <td><h3><b>Style  </b></h3></td>
+    <td><h3 style="text-align:center"><b>Rock  </b></h3></td>
+    <td><h3 style="text-align:center"><b>Latin  </b></h3></td>
+    <td><h3 style="text-align:center"><b>Funk  </b></h3></td>
+    <td><h3 style="text-align:center"><b>Jazz  </b></h3></td>
+  </tr>
+  
+  <tr>
+    <td><h3><b>1</b></h3></td>
+    <td><audio controls><source src="samples/rock.mp3"></audio></td>
+    <td><audio controls><source src="samples/latin.mp3"></audio></td>
+    <td><audio controls><source src="samples/funk.mp3"></audio></td>
+    <td><audio controls><source src="samples/jazz.mp3"></audio></td>
+  </tr>
+
+</table>
+<h3> <b>Generated songs</b></h3>
+      <table>
+
+        <tr>
+          <td><h3><b>Style  </b></h3></td>
+          <td><h3 style="text-align:center"><b>Rock  </b></h3></td>
+          <td><h3 style="text-align:center"><b>Latin  </b></h3></td>
+          <td><h3 style="text-align:center"><b>Funk  </b></h3></td>
+          <td><h3 style="text-align:center"><b>Jazz  </b></h3></td>
+        </tr>
+        
+
+        <tr>
+          <td><h3><b>1</b></h3></td>
+          <td><audio controls><source src="samples/rock01.mp3"></audio></td>
+          <td><audio controls><source src="samples/latin01.mp3"></audio></td>
+          <td><audio controls><source src="samples/funk01.mp3"></audio></td>
+          <td><audio controls><source src="samples/jazz01.mp3"></audio></td>
+        </tr>
+        
+        <tr>
+          <td><h3><b>2</b></h3></td>
+          <td><audio controls><source src="samples/rock02.mp3"></audio></td>
+          <td><audio controls><source src="samples/latin02.mp3"></audio></td>
+          <td><audio controls><source src="samples/funk02.mp3"></audio></td>
+          <td><audio controls><source src="samples/jazz02.mp3"></audio></td>
+        </tr>
+        <tr>
+          <td><h3><b>3</b></h3></td>
+          <td><audio controls><source src="samples/rock03.mp3"></audio></td>
+          <td><audio controls><source src="samples/latin03.mp3"></audio></td>
+          <td><audio controls><source src="samples/funk03.mp3"></audio></td>
+          <td><audio controls><source src="samples/jazz03.mp3"></audio></td>
+        </tr>
+        <tr>
+          <td><h3><b>4</b></h3></td>
+          <td><audio controls><source src="samples/rock04.mp3"></audio></td>
+          <td><audio controls><source src="samples/latin04.mp3"></audio></td>
+          <td><audio controls><source src="samples/funk04.mp3"></audio></td>
+          <td><audio controls><source src="samples/jazz04.mp3"></audio></td>
+        </tr>
+        <tr>
+          <!-- <td><audio controls><source src="bytesing1/可惜不是你voc_01_01.wav"></audio></td> -->
+        </tr>
+      
+      </table>
+
+<h2>
+ <b> Task Two </b>
+</h2>
+<p>
+  This task is convert the specified style midi file into another style midi file.
+</p>
+<h2>
+  Network Structure
+</h2>
+
+<img src="samples/style_transfer_network.png"style="max-width:100%;overflow:hidden;">
+<h2>
+  Demos
+</h2>
+<h3> <b>Generated songs</b></h3>
+      <table>
+
+        <tr>
+          <td><h3 style="text-align:center"><b>  Origin Style  </b></h3></td>
+          <td><h3 style="text-align:center"><b> Midi File  </b></h3></td>
+          <td><h3 style="text-align:center"><b>  Target Style  </b></h3></td>
+          <td><h3 style="text-align:center"><b> Midi File  </b></h3></td>
+        </tr>
+        <tr>
+          <td><h3 style="text-align:center"><b>Rock</b></h3></td>
+          <td><audio controls><source src="style_transfer/r2j_origin_01.mp3"></audio></td>
+          <td><h3 style="text-align:center"><b>Jazz</b></h3></td>
+          <td><audio controls><source src="style_transfer/r2j_transfer_01.mp3"></audio></td>
+        </tr>
+        <tr>
+          <td><h3 style="text-align:center"><b>Rock</b></h3></td>
+          <td><audio controls><source src="style_transfer/r2j_origin_02.mp3"></audio></td>
+          <td><h3 style="text-align:center"><b>Jazz</b></h3></td>
+          <td><audio controls><source src="style_transfer/r2j_transfer_02.mp3"></audio></td>
+        </tr>
+        <tr>
+          <td><h3 style="text-align:center"><b>Rock</b></h3></td>
+          <td><audio controls><source src="style_transfer/r2f_origin_01.mp3"></audio></td>
+          <td><h3 style="text-align:center"><b>Funk</b></h3></td>
+          <td><audio controls><source src="style_transfer/r2f_transfer_01.mp3"></audio></td>
+        </tr>
+        <tr>
+          <td><h3 style="text-align:center"><b>Rock</b></h3></td>
+          <td><audio controls><source src="style_transfer/r2f_origin_02.mp3"></audio></td>
+          <td><h3 style="text-align:center"><b>Funk</b></h3></td>
+          <td><audio controls><source src="style_transfer/r2f_transfer_02.mp3"></audio></td>
+        </tr>
+        <tr>
+          <td><h3 style="text-align:center"><b>Jazz</b></h3></td>
+          <td><audio controls><source src="style_transfer/j2r_origin_01.mp3"></audio></td>
+          <td><h3 style="text-align:center"><b>Rock</b></h3></td>
+          <td><audio controls><source src="style_transfer/j2r_transfer_01.mp3"></audio></td>
+        </tr>
+        <tr>
+          <td><h3 style="text-align:center"><b>Jazz</b></h3></td>
+          <td><audio controls><source src="style_transfer/j2r_origin_02.mp3"></audio></td>
+          <td><h3 style="text-align:center"><b>Rock</b></h3></td>
+          <td><audio controls><source src="style_transfer/j2r_transfer_02.mp3"></audio></td>
+        </tr>
+        <tr>
+          <td><h3 style="text-align:center"><b>Latin</b></h3></td>
+          <td><audio controls><source src="style_transfer/l2r_origin_01.mp3"></audio></td>
+          <td><h3 style="text-align:center"><b>Rock</b></h3></td>
+          <td><audio controls><source src="style_transfer/l2r_transfer_01.mp3"></audio></td>
+        </tr>
+        <tr>
+          <td><h3 style="text-align:center"><b>Latin</b></h3></td>
+          <td><audio controls><source src="style_transfer/l2r_origin_02.mp3"></audio></td>
+          <td><h3 style="text-align:center"><b>Rock</b></h3></td>
+          <td><audio controls><source src="style_transfer/l2r_transfer_02.mp3"></audio></td>
+        </tr>
+        
+        <tr>
+          <!-- <td><audio controls><source src="bytesing1/可惜不是你voc_01_01.wav"></audio></td> -->
+        </tr>
+      
+      </table>
+      
+<div style="text-align:right">
+  <h3>
+    <font> <b>Contact us</b> </font> 
+    </h3>
+    <a  href="https://sca.shanghaitech.edu.cn/rgznyjsjzx/list.htm">AIDA lab</a>
+    <p style="text-align:right">
+      email: chenrq@shanghaitech.edu.cn
+    </p>
+</div>    
+
+
+</div>
+
